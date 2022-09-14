@@ -140,6 +140,14 @@ footer.bg-dark{
 
 }
 /* Nav */
+.navbar-brand{
+    margin-right: 0 !important;
+    padding-top: 0 !important;
+    max-width: 82%;
+}
+.navbar-brand img{
+    width: 100%;
+}
 #templatemo_nav_top {
     min-height: 40px;
 }
@@ -420,6 +428,14 @@ footer.bg-dark{
     .py-5{
         padding-top: 5rem !important;
         padding-bottom: 5rem !important;
+    }
+}
+@media (min-width: 1440px){
+    .navbar-brand{
+        max-width: 100%;
+    }
+    .navbar-brand img{
+        width: auto;
     }
 }
 
@@ -772,6 +788,9 @@ footer.bg-dark{
 }
 img {
     max-width: 100%;
+}
+.navbar img{
+    max-width: none;
 }
 @media (min-width: 768px) {
     .title-big {
